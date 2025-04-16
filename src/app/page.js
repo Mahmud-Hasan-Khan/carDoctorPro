@@ -1,7 +1,8 @@
+import ServicesCard from "@/components/SservicesCard";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <h1>Test Page</h1>
+    <ServicesCard></ServicesCard>
   );
 }
